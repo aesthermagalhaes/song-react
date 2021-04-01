@@ -1,0 +1,49 @@
+#song-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#song-info div {
+  width: 100%;
+}
+
+#song-image {
+  width: 200px;
+  height: 200px;
+  display: inline;
+}
+
+.song-description {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  display: inline;
+}
+
+#buttons {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.default-btn {
+  margin-right: 20px;
+}
+.pre {
+  white-space: 'pre ';
+}
+
+@media only screen and (max-width: 1024px) {
+  #song-info {
+    flex-direction: column !important;
+  }
+
+  #song-info div {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #buttons button {
+    margin-top: 20px;
+  }
+}

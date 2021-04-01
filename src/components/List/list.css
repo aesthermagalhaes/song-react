@@ -1,0 +1,21 @@
+.list-items div {
+  padding: 1.25rem;
+  border-bottom: 2px solid black;
+  color: black;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+}
+
+.panel-content {
+  padding: 0 !important;
+}
+
+.song-image-avatar {
+  max-width: 5em;
+  margin-right: 15px;
+}
+
+.section-names {
+  width: 90%;
+}

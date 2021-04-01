@@ -1,0 +1,25 @@
+header {
+    background: black;
+    margin: 0;
+    height: 10vh;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 70%;
+    height: 100%;
+}
+
+nav > ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}

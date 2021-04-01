@@ -1,0 +1,11 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
